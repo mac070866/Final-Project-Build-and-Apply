@@ -20,14 +20,14 @@
     align-items: center;
 }
 
-.img logo {
+.img__logo {
     background-color: purple;
 }
 
-.company name__logo {
+.company__name--logo {
     font-weight: bold;
 }
-
+TEST
 .nav__link {
     text-decoration: none;
     list-style-type: none;
