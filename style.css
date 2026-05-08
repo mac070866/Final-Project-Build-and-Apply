@@ -10,6 +10,7 @@
 
 .nav__container {
     width: 100%;
+    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -23,52 +24,53 @@ nav {
 .img__logo {
     max-height: 20%;
     max-width: 20%;
-    display: flex;
+    display: inline;
+    gap: 10px;
 }
 
 .company__name--logo {
     font-weight: bold;
     font-size: 24px;
     font-color: #243E63;
-    display: flex;
-    
+    display: inline;
+    align-items: center;    
 }
 
 .nav__link {
     text-decoration: none;
     list-style-type: none;
-    display: flex;
+    display: inline;
     padding: 0;
     margin-left: 16px;
-    font-color: #243E63;
+    font-color: #6415ff;
         
 }
 
 .nav__link:hover {
     text-decoration: underline;
-    color: purple;
+    color: #6415ff;
 }
 
 .nav__link--primary {
     text-decoration: none;
-    display: flex;
+    display: inline;
     padding: 0;
     margin-left: 16px;
-    font-color: #243E63;
+    font-color: #6415ff;
 }
 
 .nav__link--primary:hover {
     text-decoration: underline;
-    color: purple;
+    color: #6415ff;
 
 }
 .nav__link--anchor {
     text-decoration: none;
-    display: flex;
+    display: inline;
     padding: 8px 16px;
     margin-left: 16px;
     color: #fff;
-    background-color: purple;
+    background-color: #6415ff;
     justify-content: center;
     border-radius: 20px;
 
@@ -76,6 +78,7 @@ nav {
 
 .nav__link--anchor:hover {
     text-decoration: underline;
+    
  }
 
  ul {
