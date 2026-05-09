@@ -8,6 +8,12 @@
 /* LANDING NAVIGATION */
 
 
+.nav__row {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -99,4 +105,3 @@
     gap: 16px;
 
  }
- 
