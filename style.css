@@ -23,9 +23,8 @@
 }
 
 .img__logo {
-    max-height: 5%;
-    max-width: 5%;
-    display: inline;
+   width: 40px;
+   height: 40px;
 }
 
 .row {
