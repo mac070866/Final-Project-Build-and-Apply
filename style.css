@@ -10,15 +10,15 @@
 
 .nav__container {
     width: 100%;
-    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-  
+    test
 }
 
-nav {
+.nav {
     display: flex;
+
 }
 
 .img__logo {
