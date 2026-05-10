@@ -106,27 +106,31 @@
     margin: 0 auto;
  }
 
- .h1 {
-    color: blue;
+ h1 {
+     margin-bottom: 20px;
+ }
+
+ 
+ .text--blue {
+    color: #6515ff;
+ }
+ 
+ h5 {
+    margin-bottom: 20px;
+
+ }
+
+ h6 {
     margin-bottom: 20px;
  }
 
- .h5 {
+#email {
     margin-bottom: 20px;
-
+    border-radius: 30px;
  }
 
- .h6 {
-    margin-bottom: 20px;
- }
-
- .email {
-    margin-bottom: 20px;
- }
-
- .Our Trusted Customers {
-    width: 20px;
-    height: 20px;
-
+ .our-trusted-customers {
+    
+    
  }
 
