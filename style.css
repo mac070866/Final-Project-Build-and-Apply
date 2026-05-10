@@ -114,7 +114,7 @@
  .text--blue {
     color: #6515ff;
  }
- 
+
  h5 {
     margin-bottom: 20px;
 
@@ -130,7 +130,8 @@
  }
 
  .our-trusted-customers {
-    
+    width: 100%;
+    max-width: 400px;
     
  }
 
