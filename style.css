@@ -19,7 +19,6 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    test
 }
 
 .img__logo {
@@ -46,7 +45,6 @@
     display: inline;
     align-items: center;    
     justify-content: space-between;
-
 }
 
 .nav__link {
@@ -60,8 +58,6 @@
     width: 100%;
     margin: 0px;
     margin-left: auto;
-
-    
 }
 
 .nav__link:hover {
@@ -91,16 +87,38 @@
     background-color: #6415ff;
     justify-content: center;
     border-radius: 20px;
-
 }
 
 .nav__link--anchor:hover {
     text-decoration: underline;
-    
  }
 
  ul {
     display: flex;
     gap: 16px;
+ }
+
+ /* H1 H2 INPUT BUTTON */
+
+ .row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .h1 {
+    color: blue;
+    margin-bottom: 20px;
+ }
+
+ .h5 {
+    margin-bottom: 20px;
 
  }
+
+ .Our Trusted Customers {
+    width: 20px;
+    height: 20px;
+
+ }
+
