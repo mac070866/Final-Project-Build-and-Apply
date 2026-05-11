@@ -104,10 +104,12 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
  }
 
  h1 {
      margin-bottom: 20px;
+     
  }
 
  
@@ -115,7 +117,7 @@
     color: #6515ff;
  }
 
- h5 {
+ p {
     margin-bottom: 20px;
 
  }
@@ -125,7 +127,7 @@
  }
 
 #email {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 30px;
     width: 200px;
     height: 40PX;
@@ -147,4 +149,15 @@
     max-width: 400px;
     
  }
+
+ /* DESIGN ILLUSTRATION */
+
+ .design-illustration {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  
+ }
+
+ 
 
