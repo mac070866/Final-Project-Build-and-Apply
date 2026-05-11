@@ -127,8 +127,19 @@
 #email {
     margin-bottom: 20px;
     border-radius: 30px;
-    width: 75px;
-    height: ;
+    width: 200px;
+    height: 40PX;
+    background-color: white;
+    color: rgb(91, 88, 88);
+    border-color: rgb(91, 88, 88); 
+ }
+
+ button {
+    color: white;
+    background-color: #6515ff;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
  }
 
  .our-trusted-customers {
