@@ -150,13 +150,20 @@
     
  }
 
+.hero__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
  /* DESIGN ILLUSTRATION */
 
  .design-illustration {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  
+     width: 60%;
+   }
+
+ .hero__content {
+    width: 40%;
  }
 
  
