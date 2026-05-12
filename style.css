@@ -8,8 +8,10 @@
 /* LANDING NAVIGATION */
 
 
+nav {
+    padding: 24px 32px;
+}
 .nav__row {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +23,11 @@
     display: flex;
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 .img__logo {
    width: 40px;
    height: 40px;
@@ -39,25 +46,22 @@
 }
 
 .company__name--logo {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 24px;
     color: #243E63;
-    display: inline;
-    align-items: center;    
-    justify-content: space-between;
 }
 
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 32 px;
+    list-style: none;
+}
 .nav__link {
     text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    color: #6415ff;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0px;
-    margin-left: auto;
+    color: #243e63;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nav__link:hover {
@@ -80,13 +84,13 @@
 }
 .nav__link--anchor {
     text-decoration: none;
-    display: inline;
-    padding: 8px 16px;
-    margin-left: 16px;
     color: #fff;
     background-color: #6415ff;
+    padding: 12px 24px;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nav__link--anchor:hover {
@@ -122,6 +126,7 @@
 
  p {
     margin-bottom: 20px;
+    color: #7c8ba1;
 
  }
 
@@ -158,6 +163,7 @@ button:hover {
  .our-trusted-customers {
     width: 100%;
     max-width: 400px;
+    opacity: 0.5;
     
  }
 
@@ -167,10 +173,15 @@ button:hover {
     align-items: center;
 }
  
+.hero__content {
+    width: 40%;
+}
+
  /* DESIGN ILLUSTRATION */
 
  .design-illustration {
      width: 60%;
+     max-width: 700px;
 }
 
  .hero__content {
@@ -187,11 +198,29 @@ button:hover {
  }
 
  .features {
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
  }
 
+ .features h5 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6;
+    margin-bottom: 16px;
+ }
+
+ .features h1 {
+    font-size: 36px;
+    color: #243e63;
+    margin-bottom: 16px;
+ }
+
 .features p {
-   justify-content: center;
-   align-items: center;
+    max-width: 576px;
+    color: #7c8ba1;
+    font-size: 18px;
+    line-height: 1.6;
+    
 }
