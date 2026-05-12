@@ -98,7 +98,7 @@
     gap: 16px;
  }
 
- /* H1 H2 INPUT BUTTON */
+ /* H1 P H6 INPUT BUTTON */
 
  .row {
     width: 100%;
@@ -126,7 +126,9 @@
     margin-bottom: 20px;
  }
 
-#email {
+/* EMAIL INPUT AN BUTTON */
+
+ #email {
     margin-bottom: 50px;
     border-radius: 30px;
     width: 200px;
@@ -142,7 +144,13 @@
     width: 100px;
     height: 40px;
     border-radius: 30px;
+
+button:hover {
+    background-color: red;
+
  }
+
+/* OUR TRUSTED CUSOMTERS */
 
  .our-trusted-customers {
     width: 100%;
@@ -160,11 +168,28 @@
 
  .design-illustration {
      width: 60%;
-   }
+}
 
  .hero__content {
     width: 40%;
  }
 
- 
+/* CONTAINER FOR FEATURES H1 AND P */
 
+ .container__row {
+    padding: 80px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .features {
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+
+p {
+   justify-content: center;
+   align-items: center;
+}
