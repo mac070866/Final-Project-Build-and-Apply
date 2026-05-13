@@ -225,3 +225,23 @@ button:hover {
     line-height: 1.6;
     
 }
+
+/* Services/Service */
+
+.services {
+display: flex;
+flex-wrap: wrap;
+padding: 40px 32px;
+}
+
+.service {
+display: flex;
+width: calc(100%/3);
+padding-top: 40px;
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+        
+}
