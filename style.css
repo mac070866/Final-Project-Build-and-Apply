@@ -229,19 +229,32 @@ button:hover {
 /* Services/Service */
 
 .services {
-display: flex;
-flex-wrap: wrap;
-padding: 40px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 32px;
+    line-height: 1.6;
 }
 
 .service {
-display: flex;
-width: calc(100%/3);
-padding-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    width: calc(100%/3);
+    padding-top: 32px 24px;
+}
+
+.service__img-wrapper {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb
+    border-radius: 50%;
+}
+
+.service__text {
+    margin-left: 16px;
+    margin-top: 8px;
 }
 
 .service__description {
     display: flex;
-    flex-direction: column;
-        
+    flex-direction: column; 
 }
