@@ -245,7 +245,7 @@ button:hover {
 .service__img-wrapper {
     display: flex;
     padding: 20px;
-    border: 1px solid #e5e7eb
+    border: 1px solid #e5e7eb;
     border-radius: 50%;
 }
 
