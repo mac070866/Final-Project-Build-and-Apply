@@ -254,7 +254,3 @@ button:hover {
     margin-top: 8px;
 }
 
-.service__description {
-    display: flex;
-    flex-direction: column; 
-}
