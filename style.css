@@ -258,6 +258,7 @@ button:hover {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .quality__work {
@@ -276,30 +277,32 @@ button:hover {
 
 .lorem__para {
     padding: 0 32px;
+    width: 50%;
 }
 
 .learn__more--btn {
     padding: 0 32px;
     border-radius: 80%; 
     border: none;
+    width: 50%;
 }
 
 /* Hero Screenshot to side of Quality Work Designed Professional */
 
 .hero__screenshot {
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     margin: 0 auto;
     display: flex;
 }
 
 .hero__img-wrapper {
-    width: 50%;
+    width: 100%;
     display: flex;
 }
 
 .hero__img {
-    width: 50%;
+    width: 100%;
     max-width: 1200px;
     display: flex;
     margin: 0 auto;
