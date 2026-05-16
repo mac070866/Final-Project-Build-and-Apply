@@ -258,7 +258,12 @@ button:hover {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    
+    display: flex;
+    align-items: center;
+}
+
+.professionals__content {
+    width: 50%;
 }
 
 .quality__work {
@@ -290,21 +295,16 @@ button:hover {
 /* Hero Screenshot to side of Quality Work Designed Professional */
 
 .hero__screenshot {
-    width: 100%;
-    flex-direction: column;
-    margin: 0 auto;
-    display: flex;
+    width: 50%;
+    
 }
 
 .hero__img-wrapper {
     width: 100%;
-    display: flex;
+    
 }
 
 .hero__img {
     width: 100%;
-    max-width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
+    
 }
