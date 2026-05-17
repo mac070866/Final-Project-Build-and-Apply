@@ -309,76 +309,53 @@ button:hover {
     
 }
 
-/* HERO SCREENSHOT IN computer AND STEPS */
+/* Steps Row IN computer AND STEPS */
 
-.hero__screenshot {
-width: 50%;
-max-width: 1200px;
-margin: 0 auto;
+.steps__row {
 display: flex;
 align-items: center;
+gap: 64px;
+padding: 80px 32px;
 }
 
-.hero__img-wrapper {
+.hero__computer {
+    width: 50%;
+}
+
+.computer__img-wrapper {
     width: 100%;
-    display: flex;
-
 }
 
-.hero__img {
-    width: 50%;
-    display: flex;
-    width: 50%;
-    max-width: 50px;
-    box-sizing: border-box;
+.computer__img {
+    width: 100%;
 }
 
-.steps {
+.steps__list {
 display: flex;
 flex-direction: column;
-width: 100%;
-padding: 16px 16px;
-
+gap: 24px;
+list-style: none;
 }
 
-.get__started {
-    padding: 16px 40px;
+.steps__content {
     width: 50%;
-    font-weight: bold;
 }
 
-.ol__list{
+.steps__list {
     display: flex;
-    width: 50%;
-    flex-direction: row;
-
-
+    flex-direction: column;
+    gap: 24px;
+    list-style: none;
 }
 
-.li__list {
-    width: 50%;
-    font-weight: bold;
+. steps__list li {
     display: flex;
-
-}test
-
-.li span {
-    width: 50%;
-    color: gray;
-    flex: display;
-    flex-wrap: wrap;
-
+    gap: 24px;
 }
 
 .text--gray {
-    color: gray;
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-
+    color: #cdb5e0;
+    font-size: 32px;
+    font-weight: 700;
 }
 
-.li p {
-    padding-top: 16px;
-    display: flex;
-}
