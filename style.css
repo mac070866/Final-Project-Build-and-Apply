@@ -154,7 +154,7 @@ nav {
  }
 
 button:hover {
-    background-color: red;
+    background-color: darkblue;
  }
 
 /* OUR TRUSTED CUSOMTERS */
@@ -283,7 +283,7 @@ button:hover {
 .lorem__para {
     padding: 0 32px;
     width: 100%;
-}test
+}
 
 .learn__more--btn {
     padding: 0 32px;
@@ -307,4 +307,78 @@ button:hover {
 .hero__img {
     width: 100%;
     
+}
+
+/* HERO SCREENSHOT IN computer AND STEPS */
+
+.hero__screenshot {
+width: 50%;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+
+.hero__img-wrapper {
+    width: 100%;
+    display: flex;
+
+}
+
+.hero__img {
+    width: 50%;
+    display: flex;
+    width: 50%;
+    max-width: 50px;
+    box-sizing: border-box;
+}
+
+.steps {
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 16px 16px;
+
+}
+
+.get__started {
+    padding: 16px 40px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.ol__list{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+
+
+}
+
+.li__list {
+    width: 50%;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.li span {
+    width: 50%;
+    color: gray;
+    flex: display;
+    flex-wrap: wrap;
+
+}
+
+.text--gray {
+    color: gray;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.li p {
+    padding-top: 16px;
+    display: flex;
 }
