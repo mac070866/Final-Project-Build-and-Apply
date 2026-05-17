@@ -348,7 +348,7 @@ list-style: none;
     list-style: none;
 }
 
-. steps__list li {
+.steps__list li {
     display: flex;
     gap: 24px;
 }
