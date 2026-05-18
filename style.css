@@ -313,10 +313,10 @@ button:hover {
 /* Steps Row IN computer AND STEPS */
 
 .steps__row {
-display: flex;
-align-items: flex-start;
-gap: 64px;
-padding: 80px 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 80px 32px;
 }
 
 .hero__computer {
