@@ -332,13 +332,6 @@ button:hover {
     width: 100%;
 }
 
-.steps__list {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    list-style: none;
-}
-
 .steps__content {
     width: 50%;
 }
@@ -369,3 +362,36 @@ button:hover {
     font-weight: 700;
 }
 
+/* PRICING (H5) PLANS (H2) LOREM (P) PERSONAL, BUSINESS AND ENTERPRISE */
+
+.pricing__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+.pricing__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .pricing__content h5 {
+    padding: 8px;
+  }
+
+  .pricing__content h2 {
+    padding: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #243e63;
+ }
+
+  .pricing__content p {
+    padding: 16px;
+    max-width: 576px;
+    color: #7c8ba1;
+    font-size: 18px;
+    line-height: 1.6;
+}
