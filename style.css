@@ -362,7 +362,7 @@ button:hover {
     font-weight: 700;
 }
 
-/* PRICING (H5) PLANS (H2) LOREM (P) PERSONAL, BUSINESS AND ENTERPRISE */
+/* PRICING (H5) PLANS (H2) LOREM (P) */
 
 .pricing__row {
     width: 100%;
@@ -395,3 +395,18 @@ button:hover {
     font-size: 18px;
     line-height: 1.6;
 }
+
+/* THREE PLANS AMOUNTS DURATION FEATURES BUTTON */
+
+.threeplans__planscontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: calc(100%/3);
+    padding-top: 32px 24px;   
+    box-sizing: border-box;
+    gap: 16px;
+    
+}
+
+
