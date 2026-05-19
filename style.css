@@ -398,7 +398,7 @@ button:hover {
 
 /* THREE PLANS AMOUNTS DURATION FEATURES BUTTON */
 
-.threeplans__planscontainer {
+.three__plans {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -406,7 +406,106 @@ button:hover {
     padding-top: 32px 24px;   
     box-sizing: border-box;
     gap: 16px;
+       
+}
+
+.three__plans h2 {
+    padding: 16px;
+    padding-top: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 250px;
+    text-align: center;
+    padding: 8px;
     
 }
 
+.card h4 {
+    padding: 16px
+}
 
+.nav__green--button {
+    color: white;
+    background-color: rgb(21, 186, 134);
+    border: linear-gradient;
+    cursor: pointer;
+    width: 200%;
+    height: 4%;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.three__plans--blue {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(100%/3);
+    padding-top: 32px 24px;   
+    box-sizing: border-box;
+    gap: 16px;
+}
+
+.three__plans--blue h4 {
+    background-color: #6415ff;
+    color: white;
+}
+
+.three__plans--blue h2 {
+    background-color: #6415ff;
+    color: white;
+}
+
+.three__plans--blue p {
+    background-color: #6415ff;
+    color: white;
+    
+}
+
+.nav__white--btn {
+    background-color: blue;
+    background: linear-gradient;
+    padding: 10%;
+}
+.nav__white--button {
+    color: purple;
+    background-color: whitesmoke;
+    width: 200%;
+    height: 4%;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.three__plans--red {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(100%/3);
+    padding-top: 32px 24px;   
+    box-sizing: border-box;
+    gap: 16px;
+       
+}
+
+
+.three__plans--red h2 {
+    background-color: white;
+    color: black;
+}
+
+.nav__red--button {
+    color: white;
+    background-color: rgb(226, 65, 65);
+    border: linear-gradient;
+    cursor: pointer;
+    width: 200%;
+    height: 4%;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 8px;}
