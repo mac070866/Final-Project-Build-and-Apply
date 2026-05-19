@@ -400,8 +400,8 @@ button:hover {
 
 .threeplans__planscontainer {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: calc(100%/3);
     padding-top: 32px 24px;   
     box-sizing: border-box;
