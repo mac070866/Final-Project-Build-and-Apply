@@ -403,6 +403,7 @@ button:hover {
     justify-content: center;
     padding: 40px 32px;   
     gap: 16px;
+    
 }
 
 .plan {
@@ -417,18 +418,16 @@ button:hover {
 .card {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px;
     width: 250px;
     text-align: center;
     padding: 8px;
+    
 }
 
 .card-personal {
     border-top: 8px solid rgb(21, 186, 134);
     padding: 0;
     overflow: hidden;
-    border-right: none;
-    border-bottom: none;
 }
 
 .card__section {
