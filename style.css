@@ -406,9 +406,7 @@ button:hover {
 }
 
 .plan {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    width: 250px;
 }
 
 .three__plans h2 {
@@ -423,6 +421,23 @@ button:hover {
     width: 250px;
     text-align: center;
     padding: 8px;
+}
+
+.card-personal {
+    border-top: 8px solid rgb(21, 186, 134);
+    padding: 0;
+    overflow: hidden;
+    border-right: none;
+    border-bottom: none;
+}
+
+.card__section {
+    padding: 24px 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.card__section:last-child {
+    border-bottom: none;
 }
 
 .card h4 {
