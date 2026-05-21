@@ -408,8 +408,17 @@ button:hover {
 
 .plan {
     width: 250px;
+    max-width: 360px;
+    text-align: center;
+    border-radius: 8px;
 }
 
+.plans {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+
+}
 .three__plans h2 {
     padding: 16px;
     padding-top: 0;
@@ -434,11 +443,6 @@ button:hover {
     padding: 24px 16px;
     border-bottom: 1px solid #e5e7eb;
     border: 1px solid #e5e7eb;
-
-}test
-
-.card__section:last-child {
-    border-bottom: none;
 }
 
 .card h4 {
@@ -460,7 +464,6 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: calc(100%/3);
     padding-top: 32px 24px;   
     box-sizing: border-box;
     gap: 16px;
@@ -500,16 +503,28 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: calc(100%/3);
     padding-top: 32px 24px;   
     box-sizing: border-box;
-    gap: 16px;
+    gap: 16px;   
 }
 
+.card__section--red {
+    padding: 24px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    border: 1px solid #e5e7eb;
+
+}
+
+.card-personal--red {
+    border-top: 8px solid  rgb(226, 65, 65);
+    padding: 0;
+    overflow: hidden;
+}
 
 .three__plans--red h2 {
     background-color: white;
     color: black;
+
 }
 
 .nav__red--button {
@@ -520,5 +535,6 @@ button:hover {
     display: inline-block;
     text-decoration: none;
     border-radius: 50px;
-    padding: 8px;
+    padding: 8px 24px;
+    
 }
