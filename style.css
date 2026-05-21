@@ -433,7 +433,9 @@ button:hover {
 .card__section {
     padding: 24px 16px;
     border-bottom: 1px solid #e5e7eb;
-}
+    border: 1px solid #e5e7eb;
+
+}test
 
 .card__section:last-child {
     border-bottom: none;
