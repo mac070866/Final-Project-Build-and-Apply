@@ -461,6 +461,9 @@ button:hover {
     font-weight: 500
 }
 
+.three__plans--blue .card {
+    
+}
 .three__plans--blue {
     display: flex;
     flex-wrap: wrap;
