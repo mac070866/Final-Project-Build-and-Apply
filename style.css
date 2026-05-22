@@ -462,8 +462,10 @@ button:hover {
 }
 
 .three__plans--blue .card {
+    background-color: #6515ff;
     
 }
+
 .three__plans--blue {
     display: flex;
     flex-wrap: wrap;
@@ -498,7 +500,6 @@ button:hover {
     }
 
 .nav__white--btn {
-    background-color: blue;
     background: linear-gradient;
     padding: 10%;
 }
