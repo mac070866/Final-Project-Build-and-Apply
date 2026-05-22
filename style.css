@@ -473,6 +473,9 @@ button:hover {
     padding-top: 32px 24px;   
     gap: 16px;
     background-color: #6415ff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
     
 }
 
@@ -501,7 +504,8 @@ button:hover {
 
 .nav__white--btn {
     background: linear-gradient;
-    padding: 10%;
+    padding: 24px 16px;
+    text-align: center;
 }
 .nav__white--button {
     color: purple;
@@ -521,6 +525,10 @@ button:hover {
     padding-top: 32px 24px;   
     box-sizing: border-box;
     gap: 16px;   
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .card__section--red {
