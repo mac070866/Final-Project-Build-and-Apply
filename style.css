@@ -463,6 +463,9 @@ button:hover {
 
 .three__plans--blue .card {
     background-color: #6515ff;
+    border-bottom: 1px solid #e5e7eb; 
+    
+    
     
 }
 
@@ -482,8 +485,6 @@ button:hover {
 
 .card__section--blue {
     padding: 24px 16px;
-    border-bottom: 1px solid #e5e7eb;
-    border: 1px solid #e5e7eb;
     
  } 
 
