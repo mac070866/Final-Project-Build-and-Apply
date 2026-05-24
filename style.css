@@ -551,3 +551,49 @@ button:hover {
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
     ;
 }
+
+/* GET STARTED AND CONTACT US */
+
+
+
+.header__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #6415ff;
+    padding: 60px 120px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.nav__button--links {
+
+    
+}
+
+.nav__link--anchor1 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6600;
+    padding: 12px 24px;
+    justify-content: center;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav__link--anchor2 {
+    text-decoration: #7c8ba1;
+    color: #fff;
+    background-color: #6415ff;
+    padding: 12px 24px;
+    justify-content: center;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
