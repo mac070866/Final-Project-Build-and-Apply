@@ -549,31 +549,25 @@ button:hover {
 .nav__red--button:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
-    ;
+    
 }
 
 /* GET STARTED AND CONTACT US */
 
-
-
 .header__row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     color: #fff;
     background-color: #6415ff;
-    padding: 60px 120px;
+    padding: 40px 160px;
     align-items: center;
-    justify-content: center;
-
-
+    justify-content: space-between;
 }
 
 .nav__button--links {
+    display: flex;
+    flex-direction: wrap;
 
-    
 }
 
 .nav__link--anchor1 {
