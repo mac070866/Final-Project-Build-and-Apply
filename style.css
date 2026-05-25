@@ -626,7 +626,6 @@ button:hover {
      background-color: #6415ff;
      padding: 64px 96px;
      display: flex;
-     flex-wrap: wrap;
      flex-direction: column;
      align-items: center;
      margin: 150px
@@ -644,8 +643,8 @@ button:hover {
 
 .nav__FiveColumn--links {
     display: flex;
-    flex-direction: column;
-    width: calc(100%/5);
+    flex-direction: row;
+    width: calc(100% / 5);
     align-items: center;
     flex-wrap: wrap;
 }
@@ -655,8 +654,8 @@ button:hover {
     text-decoration: none;
     font-size: 12px;
     display: flex;
-    flex-direction: column;
-    width: calc(100%/5);
+    flex-direction: row;
+    width: calc(100% / 5);
     align-items: center;
 }
 
