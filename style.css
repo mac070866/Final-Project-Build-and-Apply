@@ -634,12 +634,8 @@ button:hover {
 .FiveColumn__header {
     color: #fff;
     font-weight: 700;
-    line-height: 40px;
-    align-items: center;
-    justify-content: start;
-    display: flex;
-    flex-direction: column;
-}
+    
+    }
 
 .nav__FiveColumn--links {
     display: flex;
