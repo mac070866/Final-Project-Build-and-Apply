@@ -624,35 +624,43 @@ button:hover {
      max-width: 1200px;
      margin: 0 auto;
      background-color: #6415ff;
-     padding: 40px;
+     padding: 64px 96px;
      display: flex;
      flex-wrap: wrap;
      flex-direction: column;
+     align-items: center;
      margin: 150px
 }
 
 .FiveColumn__header {
     color: #fff;
+    font-weight: 700;
     line-height: 40px;
-
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav__FiveColumn--links {
-    display: block;
-    line-height: 2.0;
-
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 .nav__link--FiveColumn {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
 }
 
 .nav__link--FiveColumn:hover {
     text-decoration: underline;
     font-weight: 600;
-
 }
