@@ -591,13 +591,13 @@ button:hover {
     transition-duration: 300ms;
 }
 
-
 .nav__link--anchor1:hover {
     transform: translateX(8px);
     background-color: green;
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
     border: 1px solid #fff;
 }
+
 .nav__link--anchor2 {
     text-decoration: none;
     color: #fff;
@@ -615,4 +615,44 @@ button:hover {
     transform: translateX(-8px);
     background-color: green;
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
+}
+
+/* FIVE COLUMN WITH BACKGROUND FOOTER */
+
+.FiveColumnWithBackground__container {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     background-color: #6415ff;
+     padding: 40px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     margin: 150px
+}
+
+.FiveColumn__header {
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.nav__FiveColumn--links {
+    display: block;
+    line-height: 2.0;
+
+}
+.nav__link--FiveColumn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nav__link--FiveColumn:hover {
+    text-decoration: underline;
+    font-weight: 600;
+
 }
