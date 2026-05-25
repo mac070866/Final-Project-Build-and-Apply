@@ -622,13 +622,13 @@ button:hover {
 .FiveColumnWithBackground__container {
      width: 100%;
      max-width: 1200px;
-     margin: 0 auto;
+     margin: 150px auto;
      background-color: #6415ff;
      padding: 64px 96px;
      display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin: 150px
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
 }
 
 .FiveColumn__header {
@@ -643,20 +643,16 @@ button:hover {
 
 .nav__FiveColumn--links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 12px;
     width: calc(100% / 5);
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flext-start;
 }
 
 .nav__link--FiveColumn {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
-    display: flex;
-    flex-direction: row;
-    width: calc(100% / 5);
-    align-items: center;
 }
 
 .nav__link--FiveColumn:hover {
