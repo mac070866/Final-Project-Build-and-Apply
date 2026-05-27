@@ -729,7 +729,6 @@ button:hover {
     display: flex;
     gap: 16px;
     justify-content: space-between;
-    
 }
 
 .footer__social--link {
@@ -744,6 +743,7 @@ button:hover {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
+    transition-duration: 300ms;
 }
 
 .footer__social--link:hover {
