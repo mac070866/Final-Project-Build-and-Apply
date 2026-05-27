@@ -622,7 +622,7 @@ button:hover {
 .FiveColumnWithBackground__container {
      width: 100%;
      max-width: 1200px;
-     margin: 150px auto;
+     margin: 150px auto 0;
      background-color: #6415ff;
      padding: 64px 96px;
      display: flex;
@@ -674,12 +674,14 @@ button:hover {
 .company__footer--copyright {
     width: 100%;
      max-width: 1200px;
+     margin: 0 auto;
+     align-items: center;
      background-color: #6415ff;
      display: flex;
      flex-direction: row;
-     border-top: 3px solid #e5e7eb;
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
      justify-content: space-between;
-     padding: 96px 120px;
+     padding: 32px 96px 64px;
 }
 
 .company__footer--logo {
