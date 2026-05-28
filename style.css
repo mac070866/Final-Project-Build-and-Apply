@@ -669,40 +669,37 @@ button:hover {
 /* FOOTER LOGO AND COMPANY NAME, COPYRIGHT AND SOCIAL LINKS */
 
 .company__footer--copyright {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-     max-width: 1200px;
-     margin: 0 auto;
-     align-items: center;
-     background-color: #6415ff;
-     display: flex;
-     flex-direction: row;
-     border-top: 1px solid rgba(255, 255, 255, 0.2);
-     justify-content: space-between;
-     padding: 32px 96px 64px;
+    margin: 0 auto;
+    background-color: #6415ff;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 32px 96px 64px;
 }
 
 .company__footer--logo {
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: space-between;
      gap: 8px; 
      
 }
 .company__footer--logo h4 {
     color: #fff;
-    justify-content: space-between;
     display: flex;
     align-items: center;
-    white-space: nowrap;    
+    font-weight: 700;
+    font-size: 20px;
+    
 }
 
 .img__footer--logo {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     display: flex;
-    flex-direction: row;
-    align-items: center; 
 }
 
 .copyright__para {
@@ -714,33 +711,29 @@ button:hover {
 
 .copyright__para p {
     color: #cdb5e0;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
      display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     white-space: nowrap;
-    
+     margin: 0;
 }
 
 .footer__socials {
     display: flex;
     gap: 16px;
-    justify-content: space-between;
+    align-items: center;
+
 }
 
 .footer__social--link {
     width: 32px;
     height: 32px;
     background-color: #fff;
-    color: #000;
+    color: #1a202c;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 700;
     transition-duration: 300ms;
 }
 
