@@ -702,12 +702,6 @@ button:hover {
     display: flex;
 }
 
-.copyright__para {
-     display: flex;
-     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .copyright__para p {
     color: #cdb5e0;
@@ -739,4 +733,36 @@ button:hover {
 
 .footer__social--link:hover {
     background-color: #cdb5e0;
+}
+
+/* RESPONSIVE TO SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+
+@media (max-width: 728px) {
+    .row {
+    flex-direction: column;
+}
+
+.subheader {
+    text-align: center;
+}
+
+ul {
+    display: none;
+}
+
+footer {
+    padding: 48px 24px
+}
+
+.footer__logo {
+    max-width: 360px;
+}
+
+.footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+}
+
+footer__links {
+    margin-bottom: 24px;
 }
