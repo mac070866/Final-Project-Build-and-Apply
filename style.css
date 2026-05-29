@@ -735,16 +735,7 @@ button:hover {
     background-color: #cdb5e0;
 }
 
-/* RESPONSIVE TO SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
 
-@media (max-width: 728px) {
-    .row {
-    flex-direction: column;
-}
-
-.subheader {
-    text-align: center;
-}
 
 ul {
     display: none;
@@ -766,3 +757,80 @@ footer {
 footer__links {
     margin-bottom: 24px;
 }
+
+
+/* RESPONSIVE TO SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+
+@media (max-width: 480px) {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .row {
+    flex-direction: column;
+}
+
+    .nav {
+        padding: 0 24px;
+    }
+
+    a.nav__link--anchor {
+        display: block;
+        margin-top: 10px;
+    }
+    ul.nav__links {
+        width: 50%;
+        display: block;
+        padding: 10px
+    }
+
+    h6 {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+
+    div.services {
+        display: block;
+    }
+
+    .three__plans {
+        display: block;
+    }
+
+    .GetStarted__light--container {
+        display: block;
+    }
+
+     a.nav__link--anchor1 {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+     }
+
+    a.nav__link--anchor2 {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .FiveColumnWithBackground__container {
+        Display: block;
+    }
+
+    h5 {
+        margin-top: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        .nav {
+            max-width: 1200px;
+        }
+    }
