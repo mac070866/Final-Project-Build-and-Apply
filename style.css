@@ -622,8 +622,7 @@ button:hover {
 .FiveColumnWithBackground__container {
      width: 100%;
      max-width: 1200px;
-     margin: 150px auto 0;
-     background-color: #6415ff;
+     margin: 0 auto;
      padding: 64px 96px;
      display: flex;
      flex-direction: row;
@@ -650,7 +649,7 @@ button:hover {
     flex-direction: column;
     gap: 12px;
     width: calc(100% / 5);
-    align-items: flext-start;
+    align-items: flex-start;
 }
 
 .nav__link--FiveColumn {
@@ -675,7 +674,6 @@ button:hover {
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
-    background-color: #6415ff;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 32px 96px 64px;
 }
@@ -736,8 +734,7 @@ button:hover {
 }
 
 
-
-ul {
+.nav__links {
     display: none;
 }
 
@@ -758,12 +755,18 @@ footer__links {
     margin-bottom: 24px;
 }
 
+footer {
+    background-color: #6415ff;
+    margin-top: 150px;
+}
 
 /* RESPONSIVE TO SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
 
 @media (max-width: 480px) {
+    .row {
     display: block;
     width: 100%;
+}
 }
 
 @media (max-width: 768px) {
@@ -779,6 +782,7 @@ footer__links {
         display: block;
         margin-top: 10px;
     }
+
     ul.nav__links {
         width: 50%;
         display: block;
@@ -805,6 +809,7 @@ footer__links {
         display: block;
     }
 
+
     .GetStarted__light--container {
         display: block;
     }
@@ -826,11 +831,30 @@ footer__links {
     }
 
     h5 {
-        margin-top: 20px;
+        margin-top: 
+        20px;
     }
+
+    .company__footer--logo {
+        margin-bottom: 
+        16px;
+    }
+
+    .company__footer--logo h4 {
+        margin-bottom:
+           16px;
+        white-space: nowrap;
+    }
+
+    .copyright__para {
+        margin-bottom:
+        16px;
+    }
+}
 
     @media (max-width: 1200px) {
         .nav {
             max-width: 1200px;
         }
     }
+    
