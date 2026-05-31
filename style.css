@@ -390,6 +390,56 @@ button:hover {
     line-height: 1.6;
 }
 
+/* Values Affordable Professionalism and Protype Illustration */
+
+
+
+
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value__img-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__img {
+    font-size: 16px;
+}
+
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.value:nth-child(1) .value__img-wrapper {
+    background-color: #9ae6b4;
+}
+
+.value:nth-child(1) value__img {
+    background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img-wrapper {
+    background-color: #feb2b2;
+}
+
+.value:nth-child(2) .value__img {
+    background-color: #9b2c2c;
+}
+
+
+
+
 /* THREE PLANS AMOUNTS DURATION FEATURES BUTTON */
 
 .three__plans {
