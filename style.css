@@ -734,10 +734,6 @@ button:hover {
 }
 
 
-.nav__links {
-    display: none;
-}
-
 footer {
     padding: 48px 24px
 }
@@ -791,7 +787,7 @@ footer {
 
     h6 {
         margin-top: 30px;
-        
+
     }
 
     h1 {
