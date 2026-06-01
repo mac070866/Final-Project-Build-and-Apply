@@ -391,6 +391,23 @@ button:hover {
 }
 
 /* Values Affordable Professionalism and Protype Illustration */
+.value__heading-4 {
+    margin-bottom: 16px;
+}
+
+.value__heading-2 {
+    max-width: 50%;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.value__Lorem-para {
+    max-width: 50%;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
 .values__list {
     display: flex;
     gap: 48px;
@@ -438,8 +455,18 @@ button:hover {
     fill: currentColor;
 }
 
-.values__list {
-    margin-top: 32px;
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.LearnMore__button {
+    padding: 0 32px;
+    border-radius: 80%; 
+    border: none;
+    width: 50%;
 }
 
 
