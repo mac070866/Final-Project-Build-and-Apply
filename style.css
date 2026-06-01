@@ -401,6 +401,7 @@ button:hover {
 
 .values__content {
     width: 50%;
+    margin-left: 40px;
 }
 
 .values__content h5 {
@@ -479,6 +480,7 @@ button:hover {
     border-radius: 80%; 
     border: none;
     width: 50%;
+    margin-left: 6px;
 }
 
 .values__img-wrapper {
@@ -488,6 +490,7 @@ button:hover {
 
 .values__img {
     width: 100%;
+    
 }
 
 
