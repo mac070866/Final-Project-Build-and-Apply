@@ -391,50 +391,55 @@ button:hover {
 }
 
 /* Values Affordable Professionalism and Protype Illustration */
+.values__list {
+    display: flex;
+    gap: 48px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
 
-
-
-
+.value {
+    width: 50%;
+}
 
 .value__title {
     display: flex;
     align-items: center;
+    margin-bottom: 16px;
 }
 
-.value__img-wrapper {
+.value__title h3 {
+    margin-left: 12px;
+}
+
+.value__icon {
     width: 36px;
     height: 36px;
+    min-width: 36px;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.value__img {
-    font-size: 16px;
-}
-
-.value__name {
-    margin-left: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #243e63;
-}
-
-.value:nth-child(1) .value__img-wrapper {
+.value__icon-green {
     background-color: #9ae6b4;
+    color: #276749;
 }
 
-.value:nth-child(1) value__img {
-    background-color: #9ae6b4;
-}
-
-.value:nth-child(2) .value__img-wrapper {
+.value__icon-red {
     background-color: #feb2b2;
+    color: #9b2c2c;
 }
 
-.value:nth-child(2) .value__img {
-    background-color: #9b2c2c;
+.briefcase__icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.values__list {
+    margin-top: 32px;
 }
 
 
