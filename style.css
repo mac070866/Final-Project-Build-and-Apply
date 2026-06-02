@@ -656,6 +656,35 @@ button:hover {
     
 }
 
+/* TESTIMONIALS LOVE IMAGE, TESTIMONIALS HEADING, H2, P, STARS, H3, P2, PICTURE NAME TITLE COMPANY LEFT AND RIGHT ARROWS */
+
+.testimonials__row {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+}
+
+.love__testimonials {
+    width: 100%;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.love__image {
+    width: 100%;
+    max-width: 50%;
+    gap: 30px;
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+
+
+
+
+
+
+
 /* GET STARTED AND CONTACT US */
 
 .GetStarted__light--container {
