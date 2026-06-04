@@ -658,27 +658,29 @@ button:hover {
 
 /* TESTIMONIALS LOVE IMAGE, TESTIMONIALS HEADING, H2, P, STARS, H3, P2, PICTURE NAME TITLE COMPANY LEFT AND RIGHT ARROWS */
 
-.testimonials__row {
-    width: 50%;
-    max-width: 50%;
+#testimonials {
     display: flex;
     flex-direction: start;
+    align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    padding: 30px 32px;
+    gap: 64px;
+    padding: 80px 32px;
+}
+
+.testimonials__row {
+    display: flex;
+    align-items: center;    
 }
 
 .testimonial__img-wrapper {
-    width: 100%;
-    justify-content: space-between;
-    
+    width: 50%;
+    height: fit-content;
 }
 
 .love__image {
-    width: 50%;
+    width: 400px;
+    height: 
     max-width: 50%;
-    gap: 30px;
-    margin-top: 250px;
     justify-content: space-between;
 }
 
@@ -687,18 +689,15 @@ button:hover {
     max-width: 50%;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    margin-left: 20px;
+    margin-left: 10px;
     justify-content: space-between;
     padding-bottom: 40px;
-
 }
 
 .testimonials__content h5 {
     padding-bottom: 10px;
     font-size: 18px;
-    width: 50%;
-    
+    width: 50%;    
 }
 
 .five_stars-icon {
@@ -707,7 +706,6 @@ button:hover {
 
 .testimonials__content h3 {
     padding-bottom: 10px;
-    
 }
 
 .testimonials__content p {
@@ -725,15 +723,46 @@ button:hover {
     width: 50%;
 }
 
-.CharlotteHale__photo {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
+.profile {
     display: flex;
-    
+    align-items: start;
+    flex-direction: space-between;
+    white-space: nowrap;
 }
 
+.profile h3 {
+    padding: 0 0px;
+}
 
+.profile p {
+    padding-top: 2px;
+}
+
+.CharlotteHale__photo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__buttons {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 70px;       
+}
+
+.divider {
+    padding: 10px;
+}
 
 
 
