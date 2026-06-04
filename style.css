@@ -682,7 +682,7 @@ button:hover {
     justify-content: space-between;
 }
 
-.testimonials__content {
+.testimonial__content {
     width: 50%;
     max-width: 50%;
     flex-direction: column;
