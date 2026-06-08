@@ -1089,7 +1089,7 @@ footer {
 }
 
 .values__content,
-.values__img-wrapper, {
+.values__img-wrapper {
     width: 100%;
     max-width: 200px;
     justify-content: center;
