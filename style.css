@@ -8,7 +8,7 @@
 
 /* LANDING NAVIGATION */
 
-
+test
 nav {
     padding: 24px 32px;
 }
@@ -35,6 +35,7 @@ nav {
 .img__logo {
    width: 40px;
    height: 40px;
+   font-family: 24px inter, sans-serif;
 }
 
 .row {
@@ -53,6 +54,7 @@ nav {
     font-weight: 700;
     font-size: 24px;
     color: #243E63;
+    font-family: 24px inter, sans-serif;
 }
 
 .nav__links {
