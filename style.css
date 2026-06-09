@@ -1045,18 +1045,74 @@ footer {
         display: block;
     }
 
-    .div.professionals__row {
+    .features h1 {
+        text-align: center;
+    }
+
+    .features p {
+        text-align: center;
+    }
+
+    .service {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .professionals__row {
+        display: block;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .professionals__content {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .learn__more--btn {
+        margin: 0 auto;
+    }
+
+    .hero__screenshot {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero__computer {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+
+    .steps__list span {
+        align-items: center;
+        justify-content: center;
+        
+    }
+        .div.row.values__row {
         display: block;
         align-items: center;
     }
 
-    div.row.values__row {
-        display: block;
+    .span.text--blue {
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .three__plans {
         display: block;
+    }
+
+    .LearnMore__button {
+        margin: 0 auto;
     }
 
     .GetStarted__light--container {
@@ -1121,6 +1177,10 @@ div.row.values__row h2 {
     justify-content: center;
 }
 
+.pricing__content {
+    text-align: center;
+}
+
     .company__footer--logo {
         margin-bottom: 
         16px;
@@ -1145,9 +1205,13 @@ div.row.values__row h2 {
         padding-left: 70px;
         
     }
-    div.testimonials__row {
+    .testimonials__row {
         text-align: center;
         display: block;
+    }
+    .testimonials__ratings h3 {
+        text-align: center;
+        
     }
 
     .profile {
@@ -1156,13 +1220,14 @@ div.row.values__row h2 {
     }
 
     .testimonials__ratings h3 {
-        justify-content: center;
-        padding-right: 30px;
-        display: block;
+        text-align: center;
+        flex-wrap: wrap;
+        
+        
     }
 
-    .testimonial__button {
-        align-items: center;
+    .testimonial__buttons {
+        margin: 0 auto;
     }
 }
 
