@@ -978,13 +978,12 @@ footer {
 
 /* RESPONSIVE TO SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
 
-@media (max-width: 480px) {
-    .row {
-    display: block;
-    width: 100%;
-}
-}
-
+@media (max-width: 1200px) {
+        .nav {
+            max-width: 1200px;
+        }
+    }
+    
 @media (max-width: 768px) {
     .row {
     flex-direction: column;
@@ -1167,9 +1166,9 @@ div.row.values__row h2 {
     }
 }
 
-    @media (max-width: 1200px) {
-        .nav {
-            max-width: 1200px;
-        }
-    }
-    
+    @media (max-width: 480px) {
+    .row {
+    display: block;
+    width: 100%;
+}
+}
