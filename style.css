@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* LANDING NAVIGATION */
 
-test
+
 nav {
     padding: 24px 32px;
 }
@@ -37,7 +37,6 @@ nav {
    height: 40px;
    font-family: 24px inter, sans-serif;
 }
-test for push and will remove after push
 
 .row {
     width: 100%;
@@ -52,10 +51,10 @@ test for push and will remove after push
 }
 
 .company__name--logo {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 24px;
-    color: #243E63;
-    font-family: 24px inter, sans-serif;
+    letter-spacing: 0.6px;
+    color: #243e63;
 }
 
 .nav__links {
