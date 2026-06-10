@@ -368,7 +368,12 @@ button:hover {
 }
 
 .steps__content h2 {
-    margin-bottom: 32px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #243E63;
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025cm;
 }
 
 .steps__list {
@@ -1144,6 +1149,7 @@ footer {
 
     .LearnMore__button {
         margin: 0 auto;
+        border: none;
     }
 
     .GetStarted__light--container {
