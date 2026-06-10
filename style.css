@@ -283,22 +283,37 @@ button:hover {
 }
 
 .quality__work {
-    padding: 8px 32px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
+    color: #6415ff;
+    font: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    padding: 0px 32px;
 }
 
 .designed__professionals {
+    color: #243E63;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 16px 0;
     padding: 8px 32px;
     width: 100%;
     display: flex;
     flex-direction: column;
+
 }
 
 .lorem__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
     padding: 0 32px;
     width: 100%;
+
 }
 
 .learn__more--btn {
