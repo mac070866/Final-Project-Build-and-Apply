@@ -448,15 +448,20 @@ button:hover {
 }
 
 .values__content h5 {
-    margin-bottom: 16px;
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .values__content h2 {
-    max-width: 50%;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 24px;
+    color: #243e63;
+    margin: 16px 0px 32px;
+    letter-spacing: 0.025em;
+    font-size: 48px;
+    font-weight: 900;
+
 }
 
 .values__content p {
@@ -541,13 +546,13 @@ button:hover {
 
 .three__plans {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 40px 32px;   
     gap: 16px;
 }
 
 .plan {
-    width: 250px;
+    width: 300px;
     max-width: 360px;
     text-align: center;
     border-radius: 8px;
@@ -576,6 +581,7 @@ button:hover {
     border-top: 8px solid rgb(21, 186, 134);
     padding: 0;
     overflow: hidden;
+    width: 100%;
 }
 
 .card__section {
@@ -607,9 +613,10 @@ button:hover {
 }
 
 .card-business {
-  background-color: #6415ff;
-  border: none;
-  overflow: hidden;
+    width: 100%;
+    background-color: #6415ff;
+    border: none;
+    overflow: hidden;
 }
 
 .card__section--blue {
@@ -667,10 +674,10 @@ button:hover {
 .nav__white--button:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
-    ;
 }
 
 .card-enterprise {
+    width: 100%;
     border-top: 8px solid rgb(226, 65, 65);
     overflow: hidden;
 }
@@ -712,6 +719,8 @@ button:hover {
 }
 
 .testimonials__row {
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;    
     justify-content: space-between;
@@ -817,8 +826,8 @@ button:hover {
 
 .GetStarted__light--container {
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: auto;
     background-color: #6415ff;
     padding: 64px 96px;
     display: flex;
