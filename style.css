@@ -147,7 +147,12 @@ button {
     top: 0;
     right: 6px;
     margin-top: 3px;
+    border: none;
 }
+
+button:hover {
+    background-color: darkblue;
+ }
 
   #email {
     margin-bottom: 50px;
@@ -160,19 +165,10 @@ button {
     padding: 22px;
  }
 
- button {
-    color: white;
-    background-color: #6515ff;
-    width: 100px;
-    height: 40px;
-    border-radius: 30px;
- }
-
-button:hover {
-    background-color: darkblue;
- }
-
  h6 {
+    color: #a0aec0;
+    font: 12px;
+    margin: 25px 0px 0px;
     margin-bottom: 20px;
  }
 
@@ -249,6 +245,8 @@ button:hover {
     flex-wrap: wrap;
     padding: 40px 32px;
     line-height: 1.6;
+    width: 80%;
+    margin: auto;
 }
 
 .service {
