@@ -87,7 +87,6 @@ nav {
 .nav__link--primary:hover {
     text-decoration: underline;
     color: #6415ff;
-
 }
 
 .nav__link--anchor {
@@ -303,7 +302,6 @@ button:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 .lorem__para {
@@ -333,7 +331,6 @@ button:hover {
     padding: 8px 24px;
     font-weight: 500;
     transition-duration: 300ms;
-
 }
 
 /* Hero Screenshot to side of Quality Work Designed Professional */
@@ -382,7 +379,6 @@ button:hover {
     letter-spacing: 1.6;
     font-weight: 700;
     text-transform: uppercase;
-
 }
 
 .steps__content h2 {
@@ -474,7 +470,6 @@ button:hover {
     letter-spacing: 0.025em;
     font-size: 48px;
     font-weight: 900;
-
 }
 
 .values__content p {
@@ -550,8 +545,7 @@ button:hover {
 }
 
 .values__img {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 
@@ -617,7 +611,6 @@ button:hover {
     padding: 8px 24px;
     font-weight: 500;
     transition-duration: 300ms;
-    
 }
 
 .nav__green--button:hover {
@@ -716,7 +709,6 @@ button:hover {
 .nav__red--button:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
-    
 }
 
 /* TESTIMONIALS LOVE IMAGE, TESTIMONIALS HEADING, H2, P, STARS, H3, P2, PICTURE NAME TITLE COMPANY LEFT AND RIGHT ARROWS */
@@ -826,7 +818,6 @@ button:hover {
     display: flex;
     margin-left: 70px;       
     transition-duration: 300ms;
-    
 }
 
 .testimonial__button {
@@ -845,9 +836,6 @@ button:hover {
 .divider {
     padding: 10px;
 }
-
-
-
 
 /* GET STARTED AND CONTACT US */
 
@@ -938,8 +926,7 @@ button:hover {
     color: #fff;
     font-weight: 700;
     margin-bottom: 24px;
-    
-    }
+}
 
 .nav__FiveColumn--links {
     display: flex;
@@ -1010,7 +997,6 @@ button:hover {
     display: flex;
     gap: 16px;
     align-items: center;
-
 }
 
 .footer__social--link {
@@ -1064,7 +1050,7 @@ footer {
 @media (max-width: 768px) {
     .row {
     flex-direction: column;
-}
+    }
 
     .nav {
         padding: 0 24px;
@@ -1273,7 +1259,7 @@ div.row.values__row h2 {
 
 .pricing__content {
     text-align: center;
-}
+    }
 
     .company__footer--logo {
         margin-bottom: 
@@ -1308,9 +1294,6 @@ div.row.values__row h2 {
         width: 90%;
         margin: 0 auto;
         align-items: center;
-
-
-
     }
 
     .testimonials__ratings h3 {
