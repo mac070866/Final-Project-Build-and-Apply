@@ -1282,14 +1282,21 @@ div.row.values__row h2 {
         16px;
     }
 
+    .testimonial__img-wrapper {
+        width: 100%;
+    }
+
     img.love__image {
         align-items: center;
         width: 100%;
         max-width: 1200px;
         display: block;
-        padding-left: 70px;
-        
     }
+
+    .plan {
+        margin: auto;
+    }
+
     .testimonials__row {
         text-align: center;
         display: block;
@@ -1318,11 +1325,28 @@ div.row.values__row h2 {
     .testimonial__buttons {
         margin: 0 auto;
     }
+
+    .FiveColumnWithBackground__container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FiveColumn__header {
+        width: 30%;
+    }
 }
 
     @media (max-width: 480px) {
     .row {
     display: block;
     width: 100%;
-}
+    }
+    
+    .FiveColumn__header {
+        width: 40%;
+    }
+
 }
