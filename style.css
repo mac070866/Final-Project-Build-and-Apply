@@ -752,8 +752,8 @@ button:hover {
 }
 
 .testimonials__content {
-    width: 50%;
-    max-width: 50%;
+    width: 90%;
+    margin: auto;
     padding-left: 64px;
     flex-direction: column;
     align-items: center;
@@ -1303,6 +1303,16 @@ div.row.values__row h2 {
         text-align: center;
         display: block;
     }
+
+    .testimonials__content {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+
+
+
+    }
+
     .testimonials__ratings h3 {
         text-align: center;
     }
