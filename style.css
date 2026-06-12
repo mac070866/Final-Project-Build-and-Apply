@@ -893,7 +893,7 @@ button:hover {
 
 .nav__link--anchor1:hover {
     transform: translateX(8px);
-    background-color: green;
+    background-color: red;
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
     border: 1px solid #fff;
 }
@@ -913,7 +913,9 @@ button:hover {
 
 .nav__link--anchor2:hover {
     transform: translateX(-8px);
-    background-color: green;
+    color: #6415ff;
+    background-color: white;
+    font-weight: 600;
     box-shadow: 0 12px 20px rgba(0,0,0,0.35);
 }
 
