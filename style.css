@@ -824,32 +824,39 @@ button:hover {
 }
 
 .testimonial__buttons {
-    width: 100px;
-    height: 60px;
-    border-radius: 50%;
-    white-space: nowrap;
-    padding: 8px;
     display: flex;
-    margin-left: 70px;   
-    transition-duration: 300ms;
+    align-items: center;
+    margin-left: auto;   
 }
 
 .testimonial__button {
-    width: 100%;
-    height: 100%;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    background-color: lightgrey;
-    color: #243e63;
+    background-color: #edf2f7;
+    color: #6415ff;
     border: none;
     cursor: pointer;
     display: flex;
-    margin-left: 70px;
-    transition-duration: 300ms;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 12px;
+}
+
+.testimonial__button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.testimonial__button svg path {
+    fill: #6415ff;
 }
 
 .divider {
-    padding: 0px 0px;
-    gap: 2px;
+    width: 1px;
+    height: 24px;
+    background-color: #e2e8f0;
 }
 
 /* GET STARTED AND CONTACT US */
@@ -957,12 +964,16 @@ button:hover {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
+    font-weight: 600;
     white-space: nowrap;
 }
 
 .nav__link--FiveColumn:hover {
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 700;
+    bottom: -6px;
+    transition: all 300ms ease;
+    height: 2px;
 }
 
 
@@ -1026,7 +1037,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    transition-duration: 300ms;
+    transition-duration: 300ms ease;
 }
 
 .footer__social--link:hover {
