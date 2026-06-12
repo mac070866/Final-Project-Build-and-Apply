@@ -828,6 +828,7 @@ button:hover {
     height: 60px;
     border-radius: 50%;
     white-space: nowrap;
+    padding: 8px;
     display: flex;
     margin-left: 70px;   
     transition-duration: 300ms;
@@ -847,7 +848,8 @@ button:hover {
 }
 
 .divider {
-    padding: 2px;
+    padding: 0px 0px;
+    gap: 2px;
 }
 
 /* GET STARTED AND CONTACT US */
