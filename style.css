@@ -966,19 +966,23 @@ button:hover {
 }
 
 .nav__link--FiveColumn {
-    color: #fff;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
-    white-space: nowrap;
+    position: relative;
+    display: inline-block;
 }
 
-.nav__link--FiveColumn:hover {
-    text-decoration: underline;
-    font-weight: 700;
+.nav__link--FiveColumn::after {
+    content: "";
+    position: absolute;
+    left: 0;
     bottom: -6px;
-    transition: all 300ms ease;
+    width: 0;
     height: 2px;
+    background-color: #fff;
+    transition: width 300ms ease;
+}
+
+.nav__link--FiveColumn:hover::after {
+    width: 100%;
 }
 
 
