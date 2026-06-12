@@ -844,6 +844,11 @@ button:hover {
     margin: 0 12px;
 }
 
+.testimonial__button:hover {
+    background-color: lightgray;
+    transition-duration: 300ms ease;
+}
+
 .testimonial__button svg {
     width: 16px;
     height: 16px;
