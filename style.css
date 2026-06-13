@@ -10,13 +10,14 @@
 
 
 nav {
-    padding: 24px 32px;
+    padding: 24px 0ch
 }
 
 .nav__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 32px;
 }
 
 .nav__container {
@@ -35,8 +36,7 @@ nav {
 .img__logo {
    width: 40px;
    height: 40px;
-   font-family: 24px inter, sans-serif;
-   margin-left: 30px;
+   margin-left: 0;
 }
 
 .row {
@@ -109,6 +109,13 @@ nav {
     display: flex;
     gap: 16px;
     list-style-type: none;
+ }
+
+ .fa-bars {
+    display: none;
+    font-size: 24px;
+    color: #243e63;
+    cursor: pointer;
  }
 
  /* H1 P H6 INPUT BUTTON */
@@ -1125,6 +1132,15 @@ footer {
         display: block;
         align-items: center;
     }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
 
     .hero__content h1 {
         display: block;
