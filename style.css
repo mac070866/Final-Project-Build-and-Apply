@@ -1420,6 +1420,8 @@ div.row.values__row h2 {
 
 }
 
+@media (min-width: 769px) {
 .fa-bars {
     display: none !important;
+}
 }
