@@ -1419,3 +1419,7 @@ div.row.values__row h2 {
     }
 
 }
+
+.fa-bars {
+    display: none !important;
+}
