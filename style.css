@@ -289,6 +289,10 @@ button:hover {
 
 /* Quality Work Designed & Developed by Professional */
 
+#quality {
+    padding: 96px 0;
+}
+
 .professionals__row {
     width: 100%;
     max-width: 1200px;
@@ -370,11 +374,16 @@ button:hover {
 
 /* Steps Row IN computer AND STEPS */
 
+
+#steps {
+    padding: 96px 0;
+}
+
 .steps__row {
     display: flex;
     align-items: flex-start;
     gap: 64px;
-    padding: 80px 32px;
+    padding: 0 32px;
 }
 
 .hero__computer {
@@ -431,6 +440,10 @@ button:hover {
 
 /* PRICING (H5) PLANS (H2) LOREM (P) */
 
+#pricing {
+    padding: 96px 0;
+}
+
 .pricing__row {
     width: 100%;
     max-width: 1200px;
@@ -472,6 +485,10 @@ button:hover {
 }
 
 /* Values Affordable Professionalism and Values Illustration */
+
+#values {
+    padding: 96px 0;
+}
 
 .values__row {
     display: flex;
@@ -755,7 +772,7 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    padding: 80px 32px;
+    padding: 96px 0;
 }
 
 .testimonials__row {
