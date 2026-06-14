@@ -216,6 +216,10 @@ button:hover {
 
 /* CONTAINER FOR FEATURES H1 AND P */
 
+#features {
+    padding: 96px 0;
+}
+
  .container__row {
     padding: 80px 0;
     width: 100%;
@@ -265,7 +269,6 @@ button:hover {
     line-height: 1.6;
     width: 80%;
     margin: auto;
-    margin-bottom: 96px;
 }
 
 .service {
@@ -314,8 +317,7 @@ button:hover {
     font: 16px;
     font-weight: 700;
     letter-spacing: 1.6px;
-    padding: 0px 32px;
-    
+    padding: 0px 32px;  
 }
 
 .designed__professionals h2 {
@@ -464,7 +466,6 @@ button:hover {
     letter-spacing: 1.6px;
     text-transform: uppercase;
     padding: 16px;
-
   }
 
   .pricing__content h2 {
@@ -593,7 +594,6 @@ button:hover {
 
 .values__img-wrapper {
     width: 50%;
-    
 }
 
 .values__img {
@@ -816,7 +816,6 @@ button:hover {
     font-weight: 900;
     color: #243E63;
     letter-spacing: 0.025cm;
-
 }
 
 .five_stars-icon {
@@ -1038,6 +1037,10 @@ button:hover {
 
 /* FOOTER LOGO AND COMPANY NAME, COPYRIGHT AND SOCIAL LINKS */
 
+#start {
+    padding: 96px 0;
+}
+
 .company__footer--copyright {
     
     display: flex;
@@ -1136,18 +1139,18 @@ footer {
     }
     
 @media (max-width: 768px) {
-    .row {
-    flex-direction: column;
-    }
-
-    .nav {
-        padding: 0 24px;
-    } 
-
-    nav {
-        justify-content: center;
-        display: block;
+    
+    .row.nav__row {
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 32px;
+    }
+    
+    .nav__links {
+        display: none;
     }
 
     .fa-bars {
@@ -1440,5 +1443,15 @@ div.row.values__row h2 {
 @media (min-width: 769px) {
 .fa-bars {
     display: none !important;
+}
+
+#features,
+#quality,
+#steps,
+#values,
+#pricing,
+#testimonials,
+#start {
+    padding: 96px 0;
 }
 }
