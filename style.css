@@ -267,7 +267,7 @@ button:hover {
     flex-wrap: wrap;
     padding: 40px 32px;
     line-height: 1.6;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -302,6 +302,7 @@ button:hover {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .professionals__content {
@@ -326,9 +327,7 @@ button:hover {
     font-weight: 900;
     margin: 16px 0;
     padding: 8px 32px;
-    display: flex;
-    letter-spacing: 0.025cm;
-    flex-direction: column;
+    letter-spacing: 0.025em;
 }
 
 .lorem__para {
@@ -357,6 +356,7 @@ button:hover {
     border-radius: 50px;
     padding: 8px 24px;
     font-weight: 500;
+    margin-top: 32px;
     transition-duration: 300ms;
 }
 
@@ -364,6 +364,9 @@ button:hover {
 
 .hero__screenshot {
     width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 56px;
 }
 
 .hero__img-wrapper {
@@ -419,7 +422,7 @@ button:hover {
     color: #243E63;
     line-height: 1.5;
     margin: 16px 0;
-    letter-spacing: 0.025cm;
+    letter-spacing: 0.025em;
 }
 
 .steps__list {
@@ -815,7 +818,7 @@ button:hover {
     font-size: 48px;
     font-weight: 900;
     color: #243E63;
-    letter-spacing: 0.025cm;
+    letter-spacing: 0.025em;
 }
 
 .five_stars-icon {
@@ -1156,12 +1159,7 @@ footer {
     .fa-bars {
         display: block;
     }
-
-    .nav__links {
-        display: none;
-    }
-
-
+    
     .hero__content h1 {
         display: block;
         justify-content: center;
@@ -1180,6 +1178,9 @@ footer {
         margin: 0 auto;
     }
 
+    .hero__row {
+        flex-direction: column;
+    }
     .steps__content {
         width: 90%;
         margin: 0 auto;
@@ -1310,8 +1311,7 @@ footer {
     }
 
     h5 {
-        margin-top: 
-        20px;
+        margin-top: 20px;
     }
 
     .values__row {
@@ -1356,19 +1356,16 @@ div.row.values__row h2 {
     }
 
     .company__footer--logo {
-        margin-bottom: 
-        16px;
+        margin-bottom: 16px;
     }
 
     .company__footer--logo h4 {
-        margin-bottom:
-           16px;
+        margin-bottom: 16px;
         white-space: nowrap;
     }
 
     .copyright__para {
-        margin-bottom:
-        16px;
+        margin-bottom: 16px;
     }
 
     .testimonial__img-wrapper {
@@ -1429,7 +1426,7 @@ div.row.values__row h2 {
 }
 
     @media (max-width: 480px) {
-    .row {
+    .row:not(.nav__row) {
     display: block;
     width: 100%;
     }
