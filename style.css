@@ -212,8 +212,9 @@ LANDING
     height: 40px;
     border-radius: 30px;
     position: absolute;
-    top: 0;
-    right: 6px;
+    top: 5px;
+    right: 11px;
+    padding-bottom: 5px;
     margin-top: 3px;
     border: none;
 }
@@ -229,8 +230,9 @@ button:hover {
     height: 40PX;
     background-color: white;
     color: rgb(91, 88, 88);
-    border-color: rgb(91, 88, 88); 
-    padding: 22px;
+    border-color: rgb(91, 88, 88);
+    border: 1px solid gray; 
+    padding: 27px;
  }
 
  /* OUR TRUSTED CUSOMTERS */
@@ -1240,6 +1242,11 @@ footer {
     .hero__row {
         flex-direction: column;
     }
+
+    .design-illustration {
+        width: 100%;
+    }
+
     .steps__content {
         width: 90%;
         margin: 0 auto;
@@ -1284,6 +1291,10 @@ footer {
 
     .features p {
         text-align: center;
+    }
+
+    .services {
+        width: 100%;
     }
 
     .service {
